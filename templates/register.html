@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register - ClanWAN</title>
+</head>
+<body>
+    <h1>Register as an Elephant</h1>
+    <form method="POST" action="/register">
+        <label>Email:</label><br>
+        <input type="email" name="email" required><br><br>
+
+        <label>Phone:</label><br>
+        <input type="text" name="phone" required><br><br>
+
+        <label>Elephant Type:</label><br>
+        <select name="elephant_type" required>
+            <option>Research scientist</option>
+            <option>Research scholar</option>
+            <option>Stock market beginner</option>
+            <option>Stock market algo trader</option>
+        </select><br><br>
+
+        <label>Are you Salaried or Business?:</label><br>
+        <input type="text" name="occupation" required><br><br>
+
+        <label>Income Range:</label><br>
+        <input type="text" name="income_range" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
